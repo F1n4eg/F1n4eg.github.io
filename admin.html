@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group list forming</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <form action = "admin.php" method="POST">
+
+     <section class="light">
+          <h1>Скільки груп Ви хочете створити?:</h1>
+          <input type = "text" name="groups"><br>
+          <h1>Створювати автобаланс по середньому балу для груп?</h1>
+          <label>
+            <input type="radio" name="light" checked>
+            <span class="design"></span>
+            <span class="text" name="answer" value="Так">Так</span>
+          </label>
+          <label>
+            <input type="radio" name="light">
+            <span class="design"></span>
+            <span class="text" name="answer" value="Ні">Ні</span>
+          </label>
+      </section>
+    <div class="button_admin">
+      <a type="submit" class="floating-button">Надіслати </a>
+    </div>
+    </form> 
+</body>
+</html>
